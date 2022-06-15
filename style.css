@@ -1,8 +1,93 @@
-body, .form-holder{
+body,html{
     display:flex;
-    justify-content:space-between;
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+.rightPage>div{
+    flex:1;
 }
 .rightPage,.form-right,.form-left, .form{
 display:flex;
 flex-direction: column;
+align-items:right;
+}
+.rightPage,.leftHero{
+    flex:1;
+    margin:0;
+}
+input{
+    border-radius:.2em;
+    border-color:#E5E7EB;
+    width:20em;
+    border-style:solid;
+}
+.form{
+    margin-top:1vh;
+    margin-right:3em;
+}
+.form-holder{
+    display:flex;
+    justify-content:flex-start;
+}
+button{
+    background-color:#596D48;
+    color:white;
+    margin:0;
+    margin-top:3vh;
+    margin-left:3vh;
+    width:15em;
+    height:5em;
+    border-radius:1em;
+    border-style:solid;
+}
+p,.doThis,.form{
+    margin-left:3vh;
+    margin-top:1vh;
+}
+.top,.doThis{
+    font-weight:bold;
+    font-size:4vh;
+}
+
+.bottom,.top{
+    align-items:left;
+    background-color:#E5E7EB
+}
+
+.credit-footer{
+    position:relative;
+    text-align:center;
+    width:100%;
+    top:55%;
+    height:3em;
+    color:white;
+    background-color:black;
+}
+.hero-image{
+    background-image: url(./images/cow.jpeg);
+    height:100%;
+  }
+.hero-text{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    top:20%;
+    left:0%;
+    background: rgba(0, 0, 0, 0.6);
+    width:100%;
+    height:40%;
+}
+.container{
+    color:white;
+    font-size:6vh;
+    text-align:center;
+    align-items:center;
+}
+img{
+    width:2em;
+    height:2em;
 }
