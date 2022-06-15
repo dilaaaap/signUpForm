@@ -1,0 +1,8 @@
+body, .form-holder{
+    display:flex;
+    justify-content:space-between;
+}
+.rightPage,.form-right,.form-left, .form{
+display:flex;
+flex-direction: column;
+}
