@@ -42,6 +42,8 @@ button{
     height:5em;
     border-radius:1em;
     border-style:solid;
+    font-size:15px;
+    font-weight:bold;
 }
 p,.doThis,.form{
     margin-left:3vh;
@@ -58,13 +60,16 @@ p,.doThis,.form{
 }
 
 .credit-footer{
-    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    position:absolute;
     text-align:center;
-    width:100%;
-    top:55%;
-    height:3em;
+    width:50%;
+    height:2em;
     color:white;
     background-color:black;
+    bottom:0;
 }
 .hero-image{
     background-image: url(./images/cow.jpeg);
@@ -90,4 +95,14 @@ p,.doThis,.form{
 img{
     width:2em;
     height:2em;
+}
+a:link{
+    text-decoration:none;
+}
+a:visited{
+    text-decoration:none;
+    color:blue;
+}
+a{
+    font-weight:bold;
 }
